@@ -12,9 +12,10 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
         usernameDisplay = findViewById(R.id.usernameDisplay)
 
-        usernameDisplay.text = "Hello chuks"
+        usernameDisplay.text = intent.getStringExtra("username")
 
     }
 }

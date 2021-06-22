@@ -13,24 +13,23 @@
         android:layout_width="131dp"
         android:layout_height="wrap_content"
         android:text="Log in"
-        android:textSize="43sp"
         android:textColor="@color/cardview_dark_background"
-        android:textStyle="bold"
-        />
+        android:textSize="43sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/usernameInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Enter your Username"
-        />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:ems="10"
         android:hint="Enter your password" />
 
@@ -39,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SUBMIT"
+
         android:textStyle="bold"
         />
 
